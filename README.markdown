@@ -4,7 +4,7 @@ This plugin provides a remember me function based on MerbAuth. Most of codes are
 
 This plugin adds a mixin that you should include in your user model to provide 2 fields to remember the token and time to expire. The mixin will automatically select the correct sub mixin for all supported orms.  
  
-<pre><code>  class User
+<pre><code>class User
   include DataMapper::Resource
   include Merb::Authentication::Mixins::AuthenticatedUser
 
@@ -28,7 +28,7 @@ declare in your _merb/merb-auth/strategies.rb_ file
 
 ------------------------------------------------------------------------------  
 
-Instructions for installation:
+### Instructions for installation:
 
 Rake tasks to package/install the gem - edit this to modify the manifest.  
 
