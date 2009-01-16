@@ -8,7 +8,7 @@ GEM_NAME = "pn-merb-auth-remember-me"
 GEM_VERSION = "0.0.1"
 AUTHOR = "Surasit Liangpornrattana"
 EMAIL = "punneng@gmail.com"
-HOMEPAGE = "http://www.punneng.net/pn-remember-me (should be github)"
+HOMEPAGE = "https://github.com/PunNeng/pn-merb-auth-remember-me"
 SUMMARY = "Merb plugin that provides remember me for merb-auth-slice-password"
 
 spec = Gem::Specification.new do |s|
