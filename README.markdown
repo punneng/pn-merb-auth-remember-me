@@ -42,5 +42,5 @@ file: slice/merb-auth-slice-password/app/controllers/sessions.rb or the logout a
 
 \# clear :auth\_token after log out
 
-    cookies.delete :auth\_token
+    cookies.delete :auth_token
 
