@@ -44,7 +44,7 @@ file: slice/merb-auth-slice-password/app/controllers/sessions.rb or the logout a
 
     cookies.delete :auth_token
 
-In your logging in page  
+In your unauthenticated.html.erb(Login page)  
 
     %input#rememberme{ :name => "remember_me" , :type => "checkbox", :value => "1"}
         Remember Me
