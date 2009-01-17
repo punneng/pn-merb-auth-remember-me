@@ -1,6 +1,6 @@
 ### PnMerbAuthRememberMe
 
-This plugin provides a remember me function based on MerbAuth. Most of codes are from [Remember me's RestfulAuthentication on Rails](http://github.com/technoweenie/restful-authentication/tree/master)  
+This plugin provides a remember me function based on MerbAuth. Most of codes are from [RestfulAuthentication on Rails](http://github.com/technoweenie/restful-authentication/tree/master)  
 
 This plugin adds a mixin that you should include in your user model to provide 2 fields to remember the token and time to expire. The mixin will automatically select the correct sub mixin for all supported orms.  
  
@@ -43,4 +43,9 @@ file: slice/merb-auth-slice-password/app/controllers/sessions.rb or the logout a
 \# clear :auth\_token after log out
 
     cookies.delete :auth_token
+
+In your logging in page  
+
+    %input#rememberme{ :name => "remember_me" , :type => "checkbox", :value => "1"}
+        Remember Me
 
